@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class Hovercraft extends Vehicle {
 
-public class Hovercraft {
+    public Hovercraft(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+    }
+
 }

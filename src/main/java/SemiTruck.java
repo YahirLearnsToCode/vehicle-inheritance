@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class SemiTruck extends Vehicle {
 
-public class SemiTruck {
+    public SemiTruck(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+    }
+
 }
